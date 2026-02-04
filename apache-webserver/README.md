@@ -43,7 +43,7 @@ http://localhost:8080
 ### Note
 
 ```yaml
-.  Apache listens on port 8080 inside the container
-.  Suitable for rootless podman environment
+-  Apache listens on port 8080 inside the container
+-  Suitable for rootless podman environment
 ```
 
