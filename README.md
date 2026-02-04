@@ -25,4 +25,3 @@ See the LICENSE file for details.
 ---
 
 Maintained by **lukesh-b**
-( *Public version suitable for sharing and learning.* )
