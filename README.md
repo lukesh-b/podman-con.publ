@@ -1,13 +1,28 @@
-# Podman Containers Public
+# Podman Containers
 
-This repository contains public Podman container projects and related containerization experiments.  
-Includes container definitions and usage examples.
+```markdown
+# podman-con.publ
 
-## Technologies
+A public collection of containerized projects and experiments built with **Podman**.
 
-- Podman  
-- Linux containers
+Each subdirectory contains an isolated container project with its own Dockerfile, documentation, and assets.
+```
+
+## Projects
+```
+Navigate to each project directory
+Note: More container directories will be added over time.
+```
+
+## Requirements
+
+- Podman (rootless recommended)
+- Linux environment
+
+## License
+See the LICENSE file for details.
 
 ---
 
-*Public version suitable for sharing and learning.*
+Maintained by **lukesh-b**
+( *Public version suitable for sharing and learning.* )
