@@ -17,3 +17,33 @@ From the `apache-webserver` directory:
 ```bash
 podman build -t apache-webserver .
 ```
+
+## Run
+
+```bash
+podman run -it --rm -p 8080:8080 apache-webserver
+```
+
+### Access the application
+
+```yaml
+http://localhost:8080
+```
+
+## Files
+
+```yaml
+.
+├── Dockerfile
+├── README.md
+├── index.html
+└── .gitignore
+```
+
+### Note
+
+```yaml
+.  Apache listens on port 8080 inside the container
+.  Suitable for rootless podman environment
+```
+
