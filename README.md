@@ -1,17 +1,27 @@
-# Podman Containers
+# Podman Containers & Pods
 
 ```markdown
-# podman-con.publ
-
+# podman
 A public collection of containerized projects and experiments built with **Podman**.
 
-Each subdirectory contains an isolated container project with its own Dockerfile, documentation, and assets.
+```
+
+## Repository Structure
+
+### Containers
+```makrdown
+Running and building standalone containers using Podman.
+```
+
+### Pods
+```markdown
+Podman pods and multi-container setups.
 ```
 
 ## Projects
 ```
 Navigate to each project directory
-Note: More container directories will be added over time.
+Note: More container and pods directories will be added over time.
 ```
 
 ## Requirements
