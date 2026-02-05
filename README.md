@@ -3,7 +3,6 @@
 ```markdown
 # podman
 A public collection of containerized projects and experiments built with Podman
-
 ```
 
 ## Repository Structure
