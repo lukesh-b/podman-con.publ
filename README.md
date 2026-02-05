@@ -8,7 +8,7 @@ A public collection of containerized projects and experiments built with Podman
 ## Repository Structure
 
 ### Containers
-```makrdown
+```markdown
 Running and building standalone containers using Podman.
 ```
 
