@@ -27,7 +27,7 @@ Host (port 8080)
 |   └── Client (curl)  |
 +----------------------+
 ```
-### Note:
+#### Note:
 ```
 All containers inside the pod share the same network namespace, allowing
 inter-container communication via `localhost` without exposing additional ports.
