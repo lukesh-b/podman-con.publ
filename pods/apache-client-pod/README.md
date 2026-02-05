@@ -26,6 +26,6 @@ Host (port 8080)
 |   ├── Apache HTTPD   |
 |   └── Client (curl)  |
 +----------------------+
-```
+
 Note: All containers inside the pod share the same network namespace, allowing inter-container communication via `localhost` without exposing additional ports.
 ```
