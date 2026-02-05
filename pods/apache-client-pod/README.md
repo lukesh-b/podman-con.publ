@@ -15,7 +15,7 @@ The pod contains the following containers:
 ---
 
 ## Architecture
-
+```markdown
 Host (port 8080)
         |
         v
@@ -26,7 +26,8 @@ Host (port 8080)
 |   ├── Apache HTTPD   |
 |   └── Client (curl)  |
 +----------------------+
-Note:
+```
+### Note:
 ```
 All containers inside the pod share the same network namespace, allowing
 inter-container communication via `localhost` without exposing additional ports.
