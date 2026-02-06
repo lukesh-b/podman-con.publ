@@ -19,15 +19,14 @@ Both containers run inside a single Podman pod and share the same network namesp
 
 
 ## Architecture Diagram
-
 ```mermaid
 graph TD
-    subgraph web-db-pod [Pod: web-db-pod]
-        httpd[HTTPD Container<br>/var/www/html (Bind Mount)]
-        mariadb[MariaDB Container<br>/var/lib/mysql (Volume)]
+    subgraph web-db-pod
+        httpd["HTTPD Container (/var/www/html) - Bind Mount"]
+        mariadb["MariaDB Container (/var/lib/mysql) - Volume"]
     end
 
-    httpd -->|Connects to| mariadb
+    httpd -->|connects to| mariadb
 ```
 
 ---
